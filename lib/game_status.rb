@@ -6,9 +6,7 @@ end
 # Define your WIN_COMBINATIONS constant
  def WIN_COMBINATIONS = [
  [0,1,2],
- [3,4,5],
- @@ -12,7 +10,6 @@ WIN_COMBINATIONS = [
-]
+ [3,4,5]
 end
 def play(board)
   puts "Welcome to Tic Tac Toe!"
